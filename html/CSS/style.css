@@ -1,0 +1,73 @@
+/* --- Basic Reset --- */
+/* This removes default browser margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --- Body Styles --- */
+/* These styles apply to the entire page */
+body {
+    font-family: Arial, sans-serif; /* Sets a clean, readable font */
+    background-color: #f4f4f4; /* A light grey background color */
+    color: #333; /* A dark grey for text, for good contrast */
+    line-height: 1.6; /* Adds some space between lines of text */
+}
+
+/* --- Header Styles --- */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0; /* 1rem of padding on top/bottom, 0 on left/right */
+    text-align: center;
+}
+
+/* --- Navigation Bar Styles --- */
+nav ul {
+    list-style: none; /* Removes the bullet points from the list */
+    padding: 1rem;
+}
+
+nav ul li {
+    display: inline; /* Makes the list items appear side-by-side */
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none; /* Removes the underline from links */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Adds underline back on hover for feedback */
+}
+
+/* --- Main Content Styles --- */
+main {
+    padding: 20px;
+    max-width: 800px; /* Limits the width for better readability on large screens */
+    margin: 20px auto; /* Adds margin and centers the content horizontally */
+    background-color: #fff;
+    border-radius: 8px; /* Gives the content area rounded corners */
+}
+
+/* --- Card Styles --- */
+/* A simple card component for features */
+.card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+
+/* --- Footer Styles --- */
+footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+}
